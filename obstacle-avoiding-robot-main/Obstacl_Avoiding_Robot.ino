@@ -1,13 +1,12 @@
-#include <Servo.h>          //Servo motor library. This is standard library
-#include <NewPing.h>        //Ultrasonic sensor function library. You must install this library
+#include <Servo.h>         
+#include <NewPing.h>        /
 
-//our L298N control pins
+
 const int LeftMotorForward = 5;
 const int LeftMotorBackward = 4;
 const int RightMotorForward = 3;
 const int RightMotorBackward = 2;
 
-//sensor pins
 #define trig_pin A3 //analog input 1
 #define echo_pin A2 //analog input 2
 
@@ -15,9 +14,8 @@ const int RightMotorBackward = 2;
 boolean goesForward = false;
 int distance = 100;
 
-NewPing sonar(trig_pin, echo_pin, maximum_distance); //sensor function
-Servo servo_motor; //our servo name
-
+NewPing sonar(trig_pin, echo_pin, maximum_distance); 
+Servo servo_motor; 
 
 void setup(){
 
