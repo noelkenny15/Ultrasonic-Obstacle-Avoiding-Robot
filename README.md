@@ -11,24 +11,7 @@ This project controls a robot's movement and enables it to avoid obstacles using
 - **Motors** - drive the robot forward, backward, or make turns.
 - **Arduino** - the microcontroller controlling the entire robot.
 
-## Pins
-
-- **Motor Pins:**
-  - Left Motor Forward: Pin 5
-  - Left Motor Backward: Pin 4
-  - Right Motor Forward: Pin 3
-  - Right Motor Backward: Pin 2
-- **Servo Motor Pin:** Pin 11
-- **Ultrasonic Sensor Pins:**
-  - Trigger Pin: Pin A3
-  - Echo Pin: Pin A2
-
-## Libraries Required
-
-- **Servo** - Controls the servo motor to rotate the ultrasonic sensor.
-- **NewPing** - Controls the ultrasonic sensor for distance measurements.
-
-To install the necessary libraries, go to **Sketch > Include Library > Manage Libraries...** and search for **Servo** and **NewPing**.
+To install the necessary libraries, go to **Sketch > Include Library > Manage Libraries...** and search for required libraries.
 
 ## Description
 
